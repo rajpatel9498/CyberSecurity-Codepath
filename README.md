@@ -41,7 +41,7 @@ Title: WordPress 2.3.0-4.7.4 - Authenticated SQL injection
 
 
 4) User Enumeration :
-![](user enumeration.gif)
+![](ue.gif)
  Title: WordPress <= 5.0 - User Activation Screen Search Engine Indexing
  |     Fixed in: 4.9.9
  |     References:
@@ -50,7 +50,7 @@ Title: WordPress 2.3.0-4.7.4 - Authenticated SQL injection
  |      - https://wordpress.org/news/2018/12/wordpress-5-0-1-security-release/
 
 5) Privillege Escalation :
-![](privillege escalation.gif)
+![](pe.gif)
 Title: WordPress <= 5.0 - Authenticated Post Type Bypass
  |     Fixed in: 4.9.9
  |     References:
