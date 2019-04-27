@@ -51,4 +51,10 @@ Created a malicious page that utilizes the user's session to forge a request to 
 
 This page secretly makes a post request on page load and hides the outcome in a hidden iframe.
  As result, an account in the database is altered.
+ 
+ Vulnerability #2: Insecure Direct Object Reference
+ ![](IDOR.gif)
+ 
+ Above GIF show an attacker getting access to the hidden user's accounts that the attacker is not permitted to view.
+ This is done through modifying the "id" parameter in the URL's to change the GET request.
 
