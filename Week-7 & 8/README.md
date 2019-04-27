@@ -1,5 +1,4 @@
 # CyberSecurity-Codepath
-# CyberSecurity-Codepath
 
 Assignment -7,8
 
