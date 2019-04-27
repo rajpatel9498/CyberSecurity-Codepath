@@ -1,5 +1,5 @@
-#Pentesting
-Time spent: 3 hours spent in total
+# Pentesting
+Time spent: 8 hours spent in total
 
 Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -15,7 +15,7 @@ Each version of the site has been given two of the six vulnerabilities.
 (In other words, all six of the exploits should be assignable to one of the sites.)
 
 
-Green
+# Green
 
 Vulnerability #1: Cross-Site Scripting
 ![](xss_green.gif)
