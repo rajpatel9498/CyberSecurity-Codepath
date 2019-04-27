@@ -18,5 +18,5 @@ Each version of the site has been given two of the six vulnerabilities.
 Green
 
 Vulnerability #1: Cross-Site Scripting
-![]xss_green.gif
+![](xss_green.gif)
 
