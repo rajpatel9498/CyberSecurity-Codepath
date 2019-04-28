@@ -64,4 +64,8 @@ This page secretly makes a post request on page load and hides the outcome in a 
  The Attacker is Injects a sql command instead of the proper Salesperson's ID Number.
  Injected SQL Command: %27%20OR%20SLEEP(5)=0--%27
  This causes the Database command to wait for 5 seconds while quering the data.
+ 
+ Vulnerability #2: Implemented User
+ ![](Implemented_user.gif)
+ If we login from red target, eventually we will also be able to login from blue target.
 
