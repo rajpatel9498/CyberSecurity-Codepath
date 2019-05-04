@@ -15,6 +15,8 @@ Steps:
 
 6) Attack the honeypot
 
+![](1.gif)
+
 ![](attack.gif)
 
 Google Cloud Setup
