@@ -17,4 +17,8 @@ Steps:
 
 Google Cloud Setup
 
+![](cloudsetup.png)
+
+
+
 
