@@ -20,5 +20,10 @@ Google Cloud Setup
 ![](cloudsetup.png)
 
 
+Firewall Settings
+
+![](firewall.png)
+
+
 
 
