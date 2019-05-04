@@ -13,4 +13,8 @@ Steps:
 
 5) Deploy Honeypot-1 in another VM
 
-6)Attack the honeypot
+6) Attack the honeypot
+
+Google Cloud Setup
+
+
