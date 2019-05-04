@@ -24,6 +24,13 @@ Firewall Settings
 
 ![](firewall.png)
 
+Deployed Honeypot
+
+![](deployedhoneypot.png)
+
+
+
+
 
 
 
